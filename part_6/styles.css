@@ -1,9 +1,19 @@
 body {
   font-family: "Computer Modern Serif";
-  font-size: 16pt;
+  font-size: 13pt;
 }
 
+.bigtitle{
+  text-align: center;
+  font-style: bold
 
+}
+
+.subtitle{
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 0.15;
+}
 /* ----------------------------------------------------------------- */
 /* The scary stuff below is just to get the right font loaded up.    */
 /* Don't worry about it. Write your CSS rules above the dotted line. */
