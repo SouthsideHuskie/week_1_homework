@@ -1,19 +1,54 @@
 body {
   font-family: "Computer Modern Serif";
-  font-size: 13pt;
+  font-size: 16pt;
+  margin-top: 1in;
+  margin-bottom: 1in;
+  margin-right: 1.5in;
+  margin-left: 1.5in;
+}
+
+blockquote{
+  margin:0px;
 }
 
 .bigtitle{
+  font-size: 32pt;
   text-align: center;
-  font-style: bold
+  font-style: bold;
+  letter-spacing: 8pt;
 
 }
 
 .subtitle{
   text-align: center;
   font-style: italic;
-  letter-spacing: 0.15;
+
+   letter-spacing: 2pt;
 }
+
+.quote{
+  font-style: italic;
+  letter-spacing: .5pt;
+    font-size: 15pt;
+
+}
+
+.author {
+  text-align: right;
+text-decoration: none;
+}
+
+.author a{text-decoration: none;}
+
+.section{
+  border-top-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+
+}
+
+
 /* ----------------------------------------------------------------- */
 /* The scary stuff below is just to get the right font loaded up.    */
 /* Don't worry about it. Write your CSS rules above the dotted line. */
