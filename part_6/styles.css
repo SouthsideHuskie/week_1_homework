@@ -1,10 +1,8 @@
 body {
   font-family: "Computer Modern Serif";
   font-size: 18pt;
-  margin-top: 1in;
-  margin-bottom: 1in;
-  margin-right: 1.5in;
-  margin-left: 1.5in;
+  margin: 100px auto;
+  width: 960px;
 }
 
 blockquote{
@@ -12,7 +10,6 @@ blockquote{
 }
 
 .bigtitle{
-  font-size: 36px;
   text-align: center;
   font-style: bold;
   letter-spacing: 8px;
@@ -57,6 +54,38 @@ font-size: 22px;
 
 }
 
+dt{ float: left;
+width: 17%}
+
+dd{
+margin-left: 17%;
+ text-align: left;
+
+}
+
+.week{
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-transform: rotate(-90deg);
+}
+
+.odd_week{
+  background-color: lavender;
+}
+
+th{background-color: black;
+color: white;
+border: 2px lightgray solid;
+}
+
+td{border: 1px lightgray solid;
+}
+
+.schedule{
+  border-collapse: collapse;
+  margin: auto;
+  font-size: 18px;
+}
 /* ----------------------------------------------------------------- */
 /* The scary stuff below is just to get the right font loaded up.    */
 /* Don't worry about it. Write your CSS rules above the dotted line. */
